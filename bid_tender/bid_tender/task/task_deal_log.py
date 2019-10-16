@@ -13,61 +13,9 @@ from email.header import Header
 # 开发人员的邮箱及任务分配
 TASK_DICT_LIST = {
     # '名字': ['email', '网址', '网址2', ],
-    'lzk':['1371570308@qq.com',
-           # 吉林
+    'lzk':['**@qq.com',
            'http://www.jl.gov.cn','http://www.ccgp-jilin.gov.cn',
-           ],# 李卓奎
-    'gmj':['451574449@.qq.com',
-               # 兵团
-               'http://cgw.xjbt.gov.cn','http://ggzy.xjbt.gov.cn',
-               # 辽宁
-               'http://www.lnggzy.gov.cn','http://www.ccgp-liaoning.gov.cn',
-               # 山东资源
-               'http://www.sdggzyjy.gov.cn',
-               # 天津资源
-               'http://ggzy.xzsp.tj.gov.cn'],# 高明江
-    'bhq':['284494583@qq.com',
-           # 江苏
-           'http://jsggzy.jszwfw.gov.cn','http://www.ccgp-jiangsu.gov.cn',
-           # 内蒙古
-           'http://ggzyjy.nmg.gov.cn','http://www.ccgp-neimenggu.gov.cn',
-           # 安徽资源
-           'http://ggzy.ah.gov.cn',
-           ],# 白昊其
-    'zjh':['1005386383@qq.com',
-           # 河南
-           'http://hnsggzyfwpt.hndrc.gov.cn','http://www.ccgp-henan.gov.cn',
-           # 湖北
-           'https://www.hbggzyfwpt.cn','http://www.ccgp-hubei.gov.cn',
-           # 北京
-           'https://ggzyfw.beijing.gov.cn','http://www.ccgp-beijing.gov.cn',
-           # 天津采购网
-           'http://www.ccgp-tianjin.gov.cn',
-           ],# 张峻珲
-    'pqs':['1345343100@qq.com',
-           # 江西
-           'http://jxsggzy.cn','http://www.ccgp-jiangxi.gov.cn',
-           # 福建
-           'https://www.fjggfw.gov.cn','http://www.ccgp-fujian.gov.cn',
-           ],# 彭青山
-    'tqj':['982143554@qq.com',
-           #湖南
-           'http://www.hnsggzy.com','http://www.ccgp-hunan.gov.cn',
-           #河北
-           'http://ggzy.hebei.gov.cn','http://www.ccgp-hebei.gov.cn',
-           #山西
-           'http://prec.sxzwfw.gov.cn','http://www.ccgp-shanxi.gov.cn',
-           ],# 唐奇君
-    'sgq':['1126031381@qq.com',
-           # 浙江
-           'http://www.zjpubservice.com','http://www.ccgp-zhejiang.gov.cn',
-           # 西藏
-           'http://www.xzggzy.gov.cn:9090','http://www.ccgp-xizang.gov.cn',
-           # 山东采购
-           'http://www.ccgp-shandong.gov.cn',
-           # 安徽采购
-           'http://www.ccgp-anhui.gov.cn',
-           ],# 孙国强
+           ],
 }
 # 日志文件所在路径，如果为空，将会读取当前文件夹作为日志文件路径
 LOG_DIR = ''
