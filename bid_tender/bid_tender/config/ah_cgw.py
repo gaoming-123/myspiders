@@ -1,0 +1,15 @@
+# 测试库
+MYSQL_HOST = '*'
+MYSQL_USER = '*'
+MYSQL_PASSWORD = '*'
+MYSQL_DB = "*"
+MYSQL_CHATSET = 'utf8'
+MYSQL_PORT = 3306
+
+# 正式库
+# MYSQL_HOST = '*'
+# MYSQL_USER = '*'
+# MYSQL_PASSWORD = '*'
+# MYSQL_DB = "*"
+# MYSQL_CHATSET = 'utf8'
+# MYSQL_PORT = 3306

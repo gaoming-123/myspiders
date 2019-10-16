@@ -1,0 +1,20 @@
+# 四川交易的每十分钟加一次连接
+# 5,15,25,35,45,55 0 * * * source bid_tender --add_url sc_jyw
+
+# 每隔30分钟, 往 task_tender 表中添加数据
+# */30 * * * * source bid_tender --add_url
+
+# 每个小时检查一次 master spider 是否存活
+1 * * * * source bid_tender --check_master
+
+# 每个小时检查 检查一次 slave spider 是否存活进程数, 默认8个, 不够8个就开到8个进程
+2 * * * * source bid_tender --start_slave
+
+# 每隔十分钟整理 spider 产生的日志文件
+*/10 * * * * source bid_tender --clear_log
+
+# 每天凌晨清理 由shell脚本产生的日志文件(不会清理spider日志), 默认保留一周内的日志
+1 0 * * * source bid_tender --del_log
+
+# 每周周末凌晨 做一次清理url_lists数据, 默认保留一个月内的所有数据
+# 30 0 * * sun source bid_tender --clear_url
